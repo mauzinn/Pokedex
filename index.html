@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="pokedex.css">
+    <title>Pokedex</title>
+</head>
+<body>
+    <section class="box">
+        <div class="pokedex">
+        <img id="principal" width="300px" src="img/fundopokedex.png">
+        <img id="principal2" src="img/pokedex.png" alt="pokedex">
+        <a href="https://github.com/mauzinn"><img id="github" width="30px" src="https://raw.githubusercontent.com/mauzinn/Calculadora-Simples/896b3fe103a702a4faefd0655369b6b6c7c148cf/img/github.svg" alt="github"></a>
+        <img width="100px" id="pokemonimg" src="">
+        <form class="form">
+            <input placeholder="Insira o nome do pokemon" id="inputpokemon" type="search"><br>
+            <button id="btn" onclick="pokeapi()" type="button">></button>
+            <p id="pokemonNAMEid"></p>
+        </form>
+        </div>
+    </section>
+    <script src="pokedex.js"></script>
+</body>
+</html>
